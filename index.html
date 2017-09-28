@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang=“en-us”>
+	<head>
+		<title>The Impossible Game</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Sachin Jain">
+		<script src="index.js"></script>
+	</head>
+	<body id="mainBody" onload="createGame()">
+		<link rel="stylesheet" href="styles.css">
+		<div style="position:fixed; top:3em; left:0em;">
+		<div id="scoreBox" style="position:absolute; display:inline-block;"></div>
+		<div id="resetBox" style="position:absolute; display:inline-block; visibility:hidden;">
+			<p id="finalScoreInfo"></p>
+			<p id="highScoreInfo"></p>
+			<p id="numObstaclesInfo"></p>
+			<button id="resetButton">Retry</button>
+		</div>		
+			<canvas width="1200" height="800" style="top:0px">
+			</canvas>
+		</div>
+	</body>
+</html>
